@@ -6,7 +6,7 @@ namespace VeiculoList
     {
         public string Placa { get; set; }
 
-        protected void List()
+        public void List()
         {
             Console.WriteLine(Placa);
             Console.WriteLine("\n");
